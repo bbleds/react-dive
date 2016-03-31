@@ -1,0 +1,44 @@
+{
+  "name": "react-dive",
+  "version": "1.0.0",
+  "description": "A simple introduction to react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server --content-base app/src --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbleds/react-dive.git"
+  },
+  "keywords": [],
+  "author": "Benjamin Bledsoe <bledsoedesigns@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbleds/react-dive/issues"
+  },
+  "homepage": "https://github.com/bbleds/react-dive#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
